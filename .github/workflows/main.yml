@@ -1,4 +1,4 @@
-name: Destroying a terraform state
+name: Deploying a terraform state
 
 on:
   workflow_dispatch:
