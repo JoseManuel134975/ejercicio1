@@ -37,7 +37,7 @@ jobs:
         uses: hashicorp/setup-terraform@v3
 
       - name: Descargar estado de Terraform
-        run: aws s3 cp s3://Josemanueldaw/terraform.tfstate terraform/terraform.tfstate
+        run: aws s3 cp s3://josemanueldaw/terraform.tfstate terraform/terraform.tfstate
 
       - name: Destroying terraform state
         working-directory: ./terraform

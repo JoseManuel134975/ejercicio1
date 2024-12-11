@@ -44,4 +44,4 @@ jobs:
           terraform apply -auto-approve
           
       - name: Subir estado de Terraform
-        run: aws s3 cp terraform/terraform.tfstate s3://Josemanueldaw/terraform.tfstate          
+        run: aws s3 cp terraform/terraform.tfstate s3://josemanueldaw/terraform.tfstate          
